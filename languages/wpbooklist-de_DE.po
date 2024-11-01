@@ -1,0 +1,3362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Book List\n"
+"POT-Creation-Date: 2018-12-26 11:43+0100\n"
+"PO-Revision-Date: 2018-12-26 18:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: F.G.Neurieser franz-georg@neurieser.at\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wpbooklist.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wpbooklist-general-functions.php:1721
+msgid ""
+"This book isn't in your Library! Please check the ISBN/ASIN number you "
+"provided."
+msgstr ""
+"Dieses Buch ist nicht in Deiner Bibliothek enthalten! Bitte die angegebene "
+"ISBN/ASIN-Nummer prüfen."
+
+#: includes/classes/book/class-wpbooklist-book.php:2279
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: includes/classes/book/class-wpbooklist-book.php:2282
+msgid "Publication Year:"
+msgstr "Jahr der Veröffentlichung:"
+
+#: includes/classes/book/class-wpbooklist-book.php:2285
+msgid "Publisher:"
+msgstr "Herausgeber:"
+
+#: includes/classes/book/class-wpbooklist-book.php:2288
+msgid "Subject:"
+msgstr "Thema:"
+
+#: includes/classes/book/class-wpbooklist-book.php:2307
+msgid "Country:"
+msgstr "Land:"
+
+#: includes/classes/class-custom-libraries-form.php:56
+msgid ""
+"Create custom Libraries here, and read all about how the various shortcodes "
+"can be used and their arguments further down this page."
+msgstr ""
+"Erstelle hier benutzerdefinierte Biblitoheken und lies alles darüber wie die "
+"verschiedenen Shortcodes und ihre Argumente weiter unten auf dieser Seite "
+"verwendet werden können."
+
+#: includes/classes/class-custom-libraries-form.php:72
+msgid "Delete Library"
+msgstr "Bibliothek löschen"
+
+#: includes/classes/class-custom-libraries-form.php:83
+msgid "Create New Library"
+msgstr "Neue Bibliothek erstellen"
+
+#: includes/classes/class-custom-libraries-form.php:89
+msgid "default shortcode for default library"
+msgstr "voreingestellter Shortcode für die voreingestellte Bibliothek"
+
+#: includes/classes/class-custom-libraries-form.php:91
+msgid ""
+"By specifying the 'Action' argument in the default shortcode above, you can "
+"control what happens when a user clicks on a book cover or title. For "
+"example, if you'd rather have the visitor directed to a book's Amazon page, "
+"simply add the 'Action' argument like so:"
+msgstr ""
+"Indem Du das ' Aktion '-Argument im voreingestellten Shortcode oben angibst, "
+"kannst Du bestimmen, was passiert, wenn ein Benutzer auf ein Buchcover oder "
+"einen Titel klickt. Wenn Du zum Beispiel den Besucher lieber auf die Amazon-"
+"Seite eines Buches leiten lassen möchtest, füge einfach das ' Aktion '-"
+"Argument hinzu:"
+
+#: includes/classes/class-custom-libraries-form.php:96
+msgid "All Available Action Values:"
+msgstr "Alle verschiedenen Aktionswerte:"
+
+#: includes/classes/class-custom-libraries-form.php:108
+msgid "shortcode for displaying Individual Books"
+msgstr "Shortcode für die Anzeige einzelner Bücher"
+
+#: includes/classes/class-custom-libraries-form.php:111
+msgid "Specify a book:"
+msgstr "Ein Buch definieren:"
+
+#: includes/classes/class-custom-libraries-form.php:112
+msgid "Set Alignment:"
+msgstr "Ausrichtung festlegen:"
+
+#: includes/classes/class-custom-libraries-form.php:113
+msgid "Specify Library:"
+msgstr "Bibliothek festlegen:"
+
+#: includes/classes/class-custom-libraries-form.php:113
+msgid "leave out to use default library"
+msgstr "leer lassen, um die Standardbibliothek zu verwenden"
+
+#: includes/classes/class-custom-libraries-form.php:114
+msgid "Set the Display:"
+msgstr "Lege die Anzeige fest:"
+
+#: includes/classes/class-custom-libraries-form.php:115
+msgid "Set the Size:"
+msgstr "Stelle die Größe ein:"
+
+#: includes/classes/class-custom-libraries-form.php:116
+msgid "Specify the Action:"
+msgstr "Definiere die Aktion:"
+
+#: includes/classes/class-custom-libraries-form.php:127
+msgid ""
+"So, for example, to display just a book's cover from your default library on "
+"the left side of a page or post, with a size of 100, this shortcode would do "
+"the trick:"
+msgstr ""
+"Um also zum Beispiel nur ein Buchcover aus Deiner Standardbibliothek auf "
+"links einer Seite oder eines Beitrags mit einer Größe von 100 anzuzeigen, "
+"verwende diesen Shortcode:"
+
+#: includes/classes/class-custom-libraries-form.php:128
+msgid ""
+"To display a book and it's excerpt from a custom library, with a size of "
+"200, this shortcode would do the trick:"
+msgstr ""
+"Um ein Buch und einen Auszug daraus aus einer eigenen Bibliothek mit einer "
+"Größe von 200 anzuzeigen, verwende diesen Shortcode:"
+
+#: includes/classes/class-custom-libraries-form.php:129
+msgid ""
+"To display a book's cover, that links to it's Amazon page, from your default "
+"library, with a size of 150, this shortcode would do the trick:"
+msgstr ""
+"Um das Cover eines Buches mit einer Größe von 150 anzuzeigen, das aus Deiner "
+"Standardbibliothek auf die Amazon-Seite verweist, verwende diesen Shortcode:"
+
+#: includes/classes/class-custom-libraries-form.php:130
+msgid ""
+"Be sure to read this detailed post on all of the different ways that the "
+"WPBookList Shortcode can be used!"
+msgstr ""
+"Lies diesen ausführlichen Beitrag mit all den verschiedenen Möglichkeiten, "
+"die die Verwendung der WPBookList Shortcode bietet!"
+
+#: includes/classes/class-wpbooklist-show-book-in-colorbox.php:1263
+msgid "Purchase This Book At:"
+msgstr "Kaufe dieses Buch bei:"
+
+#: includes/classes/storytime/class-wpbooklist-storytime.php:640
+msgid "WPBookList StoryTime Reader"
+msgstr "WPBookList Erzählungen Lesegerät"
+
+#: includes/classes/storytime/class-wpbooklist-storytime.php:643
+#: includes/classes/translations/class-wpbooklist-translations.php:459
+msgid "Select a Story"
+msgstr "Wähle eine Erzählung"
+
+#: includes/classes/storytime/class-wpbooklist-storytime.php:651
+#: includes/classes/translations/class-wpbooklist-translations.php:461
+msgid "Recent Additions"
+msgstr "Jüngste Ergänzungen"
+
+#: includes/classes/storytime/class-wpbooklist-storytime.php:657
+#: includes/classes/translations/class-wpbooklist-translations.php:462
+msgid "Browse Stories"
+msgstr "Erzählungen durchstöbern"
+
+#: includes/classes/storytime/class-wpbooklist-storytime.php:685
+#: includes/classes/translations/class-wpbooklist-translations.php:159
+#: includes/classes/translations/class-wpbooklist-translations.php:466
+msgid ""
+"WPBookList StoryTime is WPBooklist's Content-Delivery System, providing you "
+"and your website visitors with Sample Chapters, Short Stories, News, "
+"Interviews and more!"
+msgstr ""
+"WPBookList StoryTime ist das Content-Delivery System von WPBooklist, das Dir "
+"und Deinen Website-Besuchern Beispielkapitel, Kurzgeschichten, Interviews "
+"und mehr zur Verfügung stellt!"
+
+#: includes/classes/storytime/class-wpbooklist-storytime.php:688
+msgid "Powered by WPBookList"
+msgstr "Powered by WPBookList"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:32
+msgid "Search"
+msgstr "Suche"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:33
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:34
+msgid "Default"
+msgstr "Standard"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:35
+msgid "Alphabetically (By Title)"
+msgstr "Alphabetisch (nach Titel)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:36
+msgid "Alphabetically (Author's First Name)"
+msgstr "Alphabetisch (Vorname des Autors)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:37
+msgid "Alphabetically (Author's Last Name)"
+msgstr "Alphabetisch (Nachname des Autors)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:38
+msgid "Year Finished"
+msgstr "Jahr der Fertigstellung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:39
+msgid "Pages (Descending)"
+msgstr "Seiten (absteigend)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:40
+msgid "Pages (Ascending)"
+msgstr "Seiten (aufsteigend)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:41
+#: includes/classes/translations/class-wpbooklist-translations.php:57
+msgid "Signed"
+msgstr "Signiert"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:42
+msgid "First Edition"
+msgstr "Erstausgabe"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:43
+msgid "Search by"
+msgstr "Suchen nach"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:44
+msgid "Title"
+msgstr "Titel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:45
+msgid "Author"
+msgstr "Autor"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:46
+msgid "Category"
+msgstr "Kategorie"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:47
+msgid "Filter by Authors"
+msgstr "Nach Autoren filtern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:48
+msgid "Filter by Category"
+msgstr "Nach Kategorien filtern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:49
+msgid "Filter by Subject"
+msgstr "Nach Thema filtern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:50
+msgid "Filter by Country"
+msgstr "Nach Land filtern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:51
+msgid "Filter by Publication Year Range"
+msgstr "Filter nach Publikationsjahr"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:52
+msgid "To"
+msgstr "An"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:53
+msgid "Reset Filters, Sort & Search"
+msgstr "Sortierungs-, Such-und Filtererkriterien zurücksetzen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:54
+msgid "Total Books"
+msgstr "Gesamtanzahl der Bücher"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:55
+msgid "Sort, Search & Filter Results"
+msgstr "Sortierungs-, Such-und Filterergebnisse"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:56
+#: includes/classes/translations/class-wpbooklist-translations.php:255
+msgid "Finished"
+msgstr "Beendet"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:58
+msgid "First Editions"
+msgstr "Erstausgaben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:59
+msgid "Total Pages Read"
+msgstr "Gelesene Seiten"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:60
+msgid "Categories"
+msgstr "Kategorien"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:61
+msgid "Library Completion"
+msgstr "Bibliothek abgeschlossen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:62
+msgid "Uh-Oh! No books were found!"
+msgstr "Uh-Oh! Es wurden keine Bücher gefunden!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:63
+msgid "Want a Library like this for your own website? Check out"
+msgstr ""
+"Möchtest Du eine Bibliothek wie diese für Deine eigene Website? Überprüfe"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:64
+msgid "WPBookList Now!"
+msgstr "WPBookList jetzt!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:65
+msgid ""
+"Also be sure to check out all of the WPBookList Extensions & StylePaks at"
+msgstr "Schau Dir sich auch alle WPBookList Erweiterungen & Stilvorlagen an"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:66
+msgid "WPBookList.com!"
+msgstr "WPBookList.com!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:67
+#: includes/classes/translations/class-wpbooklist-translations.php:636
+msgid "Previous"
+msgstr "Zurück"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:68
+msgid "Next Page"
+msgstr "Nächste Seite"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:69
+msgid "Success!"
+msgstr "Geschafft!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:70
+msgid ""
+"You've just added a new book to your library! Remember, to display your "
+"library, simply place these shortcode(s) on a page or post:"
+msgstr ""
+"Du hast gerade ein neues Buch in Deine Bibliothek aufgenommen! Denke daran "
+"einfach diese Shortcode(s) auf einer Seite oder einem Beitrag einzufügen, um "
+"Deine Bibliothek anzuzeigen:"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:71
+msgid "Click Here to View Your New Book"
+msgstr "Hier klicken, um das neue Buch zu sehen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:72
+msgid "Click Here to View This Book's Post"
+msgstr "Hier klicken, um den Beitrag zu diesem Buch zu sehen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:73
+msgid "Click Here to View This Book's Page"
+msgstr "Hier klicken, um die Seite dieses Buches zu sehen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:74
+msgid "Thanks for using WPBookList, and"
+msgstr "Vielen Dank für die Verwendung von WPBookList, und"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:75
+msgid "be sure to check out the WPBookList Extensions!"
+msgstr "schau Dir die WPBookList Erweiterungen an!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:76
+msgid "If you happen to be thrilled with WPBookList, then by all means,"
+msgstr "Wenn Du von WPBookList begeistert bist, dann unter allen Umständen,"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:77
+msgid "Leave a 5-Star Review Here!"
+msgstr "Hinterlasse eine 5-Sterne Rezension!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:78
+msgid ""
+"Whoops! Looks like there was an error trying to add your book! Here is some "
+"developer/code info you might provide to"
+msgstr ""
+"Hoppla! Es sieht so aus, als ob es einen Fehler gab beim Versuch Dein Buch "
+"hinzuzufügen! Hier sind einige Entwickler/Code-Informationen, die Du zur "
+"Verfügung stellen kannst"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:79
+msgid "WPBookList Tech Support at TechSupport@WPBookList.com:"
+msgstr "WPBookList Technischer Kundendienst unter TechSupport@WPBookList.com:"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:80
+msgid "Hmmm..."
+msgstr "Hmmm…"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:81
+msgid ""
+"Your book was added, but it looks like there was a problem grabbing book "
+"info from Amazon. Try manually entering your book information, or wait a few "
+"seconds and try again, as sometimes Amazon gets confused. Remember, you don't"
+msgstr ""
+"Dein Buch wurde hinzugefügt, aber es sieht so aus, als ob es ein Problem "
+"gab, Buchinformationen von Amazon zu erhalten. Versuche, die "
+"Buchinformationen manuell einzugeben, oder warte ein paar Sekunden und "
+"versuche es noch einmal, da Amazon manchmal konfus reagiert. Denke daran, "
+"dass Du nicht"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:82
+msgid "HAVE"
+msgstr "Haben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:83
+msgid ""
+"to gather info from Amazon - WPBookList can work completely independently of "
+"Amazon."
+msgstr ""
+"um Infos von Amazon zu sammeln - WPBookList kann völlig unabhängig von "
+"Amazon arbeiten"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:84
+msgid "Select a User"
+msgstr "Einen Benutzer wählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:85
+msgid "Create a New Library Here"
+msgstr "Eine neue Bibliothek erstellen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:86
+msgid "Loading"
+msgstr "Laden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:87
+msgid ""
+"You've worked hard to add all those books to your website - make sure "
+"they're backed up! Simply select a Library to backup, click the 'Backup "
+"Library' button below, and"
+msgstr ""
+"Du hast hart daran gearbeitet, all diese Bücher auf Deine Website zu stellen "
+"- vergewissere Dich, dass es eine Sicherung gibt! Wähle einfach eine "
+"Bibliothek aus klicke auf die Schaltfläche \"Sicherung Bibliothek\" unten, "
+"und"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:88
+msgid "WPBookList"
+msgstr "WPBooklist"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:89
+msgid "will create a Database backup of your library!"
+msgstr "erzeugt eine Datenbanksicherung Deiner Bibliothek!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:90
+msgid "Select a Library to Backup:"
+msgstr "Wähle eine Bibliothek für die Sicherung:"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:91
+msgid "Select a Library"
+msgstr "Wähle eine Bibliothek"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:92
+msgid "Default Library"
+msgstr "Standard-Biblitohek"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:93
+msgid "Backup Library"
+msgstr "Sicherung-Bibliothek"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:94
+msgid "Here you can restore a library from previously-created"
+msgstr "Hier kannst Du eine Bibliothek wiederherstellen, aus zuvor erstellten"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:95
+msgid ""
+"backups. Simply select a Library to restore, select a backup to restore "
+"from, and click the 'Restore Library' button below. That's it!"
+msgstr ""
+"Sicherungen. Wähle einfach eine Bibliothek aus, um sie wiederherzustellen, "
+"wähle ein Backup, von dem sie wiederhergestellt werden kann und klicke auf "
+"den Button \"Bibliothek wiederherstellen\". Das wars!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:96
+msgid "Select a Library to Restore"
+msgstr "Eine Bibliothek für die Wiederherstellung auswählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:97
+msgid "Select a Backup"
+msgstr "Eine Sicherung auswählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:98
+msgid "Restore Library"
+msgstr "Bibliothek wiederherstellen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:99
+msgid ""
+"Here you can download a .csv file of ISBN/ASIN numbers from a selected "
+"library, which can be very useful in conjunction with the"
+msgstr ""
+"Hier kannst Du eine .csv-Datei von ISBN/ASIN-Nummern aus einer ausgewählten "
+"Bibliothek herunterladen, die in Verbindung mit der"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:100
+msgid "WPBookList Bulk-Upload Extension"
+msgstr "WPBookList Mehrfach-Upload Erweiterung!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:101
+msgid "Simply select a Library and click the 'Create CSV File' button, and"
+msgstr ""
+"Einfach eine Bibliothek auswählen, auf den Button \"CSV-Datei erstellen\" "
+"klicken und"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:102
+msgid "will create a .CSV file of ISBN/ASIN numbers"
+msgstr "erstellt eine .CSV-Datei der ISBN/ASIN-Nummern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:103
+msgid "Create CSV File"
+msgstr "CSV Datei erstellen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:104
+#: includes/ui/admin/class-admin-master-ui.php:244
+msgid "Backups"
+msgstr "Sicherungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:105
+msgid ""
+"To add a book, select a library in the text box directly below, fill out the "
+"form, and click the"
+msgstr ""
+"Um ein Buch hinzuzufügen, wähle eine Bibliothek im Textfeld direkt unten, "
+"fülle das Formular aus und klicke auf die"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:106
+msgid "'Add Book'"
+msgstr "\"Buch hinzufügen\""
+
+#: includes/classes/translations/class-wpbooklist-translations.php:107
+msgid "button. If you choose to gather book info from Amazon"
+msgstr ""
+"Schaltfläche. Wenn Du Dich entscheidest, Buchinformationen von Amazon zu "
+"sammeln"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:108
+msgid "the only required field is one of the ISBN 10, ISBN 13, or ASIN Fields"
+msgstr ""
+"Das einzige benötigte Feld ist eines der ISBN 10, ISBN 13, oder ASIN-Felder"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:109
+msgid "You must check the box below to authorize"
+msgstr "Aktivere das Kästchen unten um zu erlabuen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:110
+msgid ""
+"to gather data from Amazon, otherwise, the only data that will be added for "
+"your book is what you fill out on the form below. WPBookList uses it's own "
+"Amazon Product Advertising API keys to gather book data, but if you happen "
+"to have your own API keys, you can use those instead by adding them on the"
+msgstr ""
+"zur Erfassung von Daten von Amazon, sonst sind die einzigen Daten, die für "
+"Dein Buch hinzugefügt werden, das, was Du auf dem Formular unten ausfüllst. "
+"WPBookList verwendet seine eigenen Amazon-Produktwerbe-API-Keys, um "
+"Buchdaten zu sammeln, aber wenn Du zufällig Deine eigenen API-Keys hast, "
+"kannst Du diese stattdessen verwenden, indem Du sie auf der"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:111
+msgid "Amazon Settings"
+msgstr "Amazon Einstellungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:112
+msgid "page"
+msgstr "Seite"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:113
+msgid "Add a Book"
+msgstr "Ein Buch hinzufügen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:114
+msgid ""
+"You've just edited your book! Remember, to display your library, simply "
+"place this shortcode on a page or post"
+msgstr ""
+"Du hast gerade ein Buch bearbeitet! Vergiß nicht, um Deine Bibliothek "
+"anzuzeigen, verwende einfachen diesen Shortcode in einem Beitrag oder auf "
+"einer seite"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:115
+#: includes/classes/translations/class-wpbooklist-translations.php:116
+#: includes/classes/translations/class-wpbooklist-translations.php:279
+msgid "Click Here to View Your Edited Book"
+msgstr "Hier klicken, um das bearbeitete Buch zu sehen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:117
+msgid ""
+"Whoops! Looks like there was an error trying to edit your book! Please check "
+"the information you provided (especially that ISBN number), and try again."
+msgstr ""
+"Hoppla! Es sieht so aus, als ob es einen Fehler beim Versuch Dein Buch zu "
+"bearbeiten gab! Bitte überprüfe die von Dir angegebenen Informationen "
+"(insbesondere die ISBN-Nummer) und versuche es erneut."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:118
+msgid ""
+"Your book was edited, but it looks like there was a problem grabbing book "
+"info from Amazon. Try manually entering your book information, or wait a few "
+"seconds and try again, as sometimes Amazon gets confused. Remember, you don't"
+msgstr ""
+"Dein Buch wurde bearbeitet, aber es sieht so aus, als ob es ein Problem gab, "
+"Buchinformationen von Amazon zu erhalten. Versuche, die Buchinformationen "
+"manuell einzugeben, oder warte ein paar Sekunden und versuche es noch "
+"einmal, da Amazon manchmal konfus reagiert. Denke daran, dass Du nicht"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:119
+msgid "Title was succesfully deleted!"
+msgstr "Titel wurde erfolgreich gelöscht!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:120
+msgid "You've added a new StylePak!"
+msgstr "Du hast eine neue Stilvorlage hinzugefügt!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:121
+msgid "Uh-Oh!"
+msgstr "Uh-Oh!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:122
+msgid ""
+"Looks like there was a problem uploading your StylePak! Are you sure you "
+"selected the right file? It should start with the word 'StylePak' and end "
+"with either a '.zip' or a '.css' (example - StylePak1.css or StylePak1.css."
+"zip) - you could also try unzipping the file"
+msgstr ""
+"Es sieht so aus, als ob es ein Problem beim Hochladen Deiner Stilvorlage "
+"gab! Bist Du sicher, dass Du die richtige Datei ausgewählt hast? Sie sollte "
+"mit dem Wort \"StylePak\" beginnen und entweder mit einem ' .zip ' oder "
+"einem ' .css ' (Beispiel-StylePak1.css oder StylePak1.css.zip) enden - Du "
+"könntest auch versuchen, die Datei zu entzippen."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:123
+msgid "before"
+msgstr "vor"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:124
+msgid "uploading it"
+msgstr "hochladen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:125
+msgid "You've added a new Template!"
+msgstr "Du hast eine neue Vorlage hinzugefügt!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:126
+msgid ""
+"Looks like there was a problem uploading your Template! Are you sure you "
+"selected the right file? It should start with the word 'Post' and end with "
+"either a '.zip' or a '.php' (example - Post-Template-1.php or Post-"
+"Template-1.zip) - you could also try unzipping the file"
+msgstr ""
+"Es sieht so aus, als ob es ein Problem beim Hochladen Deiner Vorlage gab! "
+"Bist Du sicher, dass Du die richtige Datei ausgewählt hast? Sie sollte mit "
+"dem Wort \"Post\" beginnen und mit einem ' .zip ' oder einer ' .php ' enden "
+"(Beispiel-Post-Template-1.php oder Post-Template-1.zip) - Du könntest auch "
+"versuchen, die Datei zu entzippen."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:127
+msgid ""
+"Looks like there was a problem uploading your Template! Are you sure you "
+"selected the right file? It should start with the word 'Page' and end with "
+"either a '.zip' or a '.php' (example - Page-Template-1.php or Page-"
+"Template-1.zip) - you could also try unzipping the file"
+msgstr ""
+"Es sieht so aus, als ob es ein Problem beim Hochladen Deiner Vorlage gab! "
+"Bist Du sicher, dass Du die richtige Datei ausgewählt hast? Sie sollte mit "
+"dem Wort ' Page ' beginnen und mit einem ' .zip ' oder einer ' .php ' enden "
+"(Beispiel-Page-Template-1.php oder Page-Template-1.zip) - Du könntest auch "
+"versuchen, die Datei zu entzippen."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:128
+msgid "You've Created a New Backup! You can"
+msgstr "Du hast ein Backup erstellt! Du kannst "
+
+#: includes/classes/translations/class-wpbooklist-translations.php:129
+msgid "download your backup here"
+msgstr "Dein Backup hier herunterladen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:130
+msgid "You've Restored Your Library!"
+msgstr "Du hast Deine Bibliothek zurückgesichert!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:131
+msgid "You've Created a CSV file of ISBN/ASIN numbers! You can"
+msgstr "Du hast eine CSV-Datei mit ISBN/ASIN-Nummern erstellt! Du kannst"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:132
+msgid "download your file here"
+msgstr "die Datei hier herunterladen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:133
+msgid "Remember, your new file will come in handy when using the"
+msgstr "Denke daran, dass Deine neue Datei nützlich sein wird, wenn Du die"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:134
+msgid "Whoa, Wait a sec!"
+msgstr "Whoa, warte einen Augenblick!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:135
+msgid "Tell me why you're getting rid of WPBookList"
+msgstr "Sag mir, warum du WPBookList deinstallierst"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:136
+msgid "and I'll do my best to fix the issue!"
+msgstr "und ich werde mein Bestes geben, um das Problem zu beheben!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:137
+msgid "I Can't Add Any Books!"
+msgstr "Ich kann keine Bücher hinzufügen!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:138
+msgid "It's Ugly!"
+msgstr "Es ist hässlich!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:139
+msgid "It Doesn't Have a Feature I Need!"
+msgstr "Es hat kein Feature, das ich brauche!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:140
+msgid "What kind of feature are you looking for?"
+msgstr "Welche Funktion suchst Du?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:141
+msgid "Also, be sure to check out"
+msgstr "Überprüfe auch "
+
+#: includes/classes/translations/class-wpbooklist-translations.php:142
+msgid "all the available Extensions"
+msgstr "alle verfügbaren Erweiterungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:143
+msgid "chances are the feature you're looking for already exists!"
+msgstr ""
+"Die Chancen stehen gut, dass das Feature, das Sie suchen, bereits existiert!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:144
+msgid "It Broke My Website!"
+msgstr "Es brachte meine Website zum Absturz!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:145
+msgid "It Doesn't Work Right With My Theme!"
+msgstr "Es funktioniert nicht richtig mit meinem Theme!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:146
+msgid "The"
+msgstr "Das"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:147
+#: includes/ui/admin/class-admin-extensions-extensions-tab-ui.php:35
+#: includes/ui/admin/class-admin-master-ui.php:127
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:148
+msgid "Are Too Expensive!"
+msgstr "Sind zu teuer!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:149
+msgid "I Prefer a Different Book Plugin!"
+msgstr "Ich bevorzuge ein anderes Buch-Plugin!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:150
+msgid "This Pop-Up Is Annoying!"
+msgstr "Dieses Pop-Up nervt!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:151
+msgid "Just Not What I Thought It Was..."
+msgstr "Nicht gerade das, was ich erwartet habe ..."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:152
+msgid "Provide Another Reason & Some Details Here"
+msgstr "Weitere Gründe & Details hier"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:153
+msgid "E-Mail Address (Optional)"
+msgstr "E-Mail Adresse (optional)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:154
+msgid "(If provided, I'll personally respond to your concern)"
+msgstr "(Wenn vorhanden, werde ich persönlich auf Ihr Anliegen antworten)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:155
+msgid "E-Mail Address"
+msgstr "E-Mail Adresse"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:156
+msgid "Submit - And Thanks For Trying WPBookList!"
+msgstr "Absenden-Und Danke für den Versuch, WPBookList!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:157
+msgid "Nah - Just Deactivate WPBookList!"
+msgstr "Nein-Nur WPBooklist deaktivieren!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:158
+msgid "Delete This Story"
+msgstr "Diese Erzählung löschen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:160
+#: includes/classes/translations/class-wpbooklist-translations.php:465
+msgid "Discover new Authors and Publishers!"
+msgstr "Neue Autoren und Verleger entdecken!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:161
+msgid "Authorize Amazon Usage"
+msgstr "Amazon-Nutzung genehmigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:162
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:163
+#: includes/templates/page-template-default.php:263
+#: includes/templates/post-template-default.php:263
+msgid "No"
+msgstr "Nein"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:164
+msgid "Select The Libraries to Add This Book To"
+msgstr "Bibliotheken auswählen denen das Buch hinzugefügt werden soll"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:165
+msgid "Gather Book Info From Amazon?"
+msgstr "Buchinfo von Amazon einholen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:166
+msgid "ISBN 10"
+msgstr "ISBN 10"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:167
+msgid "ISBN 13"
+msgstr "ISBN 13"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:168
+msgid "ASIN"
+msgstr "ASIN"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:169
+#: includes/classes/translations/class-wpbooklist-translations.php:303
+msgid "Book Title"
+msgstr "Buch-Titel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:170
+msgid "Original Title"
+msgstr "Originaltitel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:171
+#: includes/classes/translations/class-wpbooklist-translations.php:313
+msgid "Illustrator"
+msgstr "Zeichner"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:172
+msgid "Publisher"
+msgstr "Verleger/Verlag"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:173
+#: includes/ui/admin/class-admin-master-ui.php:221
+msgid "Pages"
+msgstr "Seiten"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:174
+msgid "Publication Year"
+msgstr "Jahr der Veröffentlichung:"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:175
+msgid "Call Number"
+msgstr "Rufnummer"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:176
+msgid "Original Publication Year"
+msgstr "Original Erscheinungsjahr"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:177
+msgid "Genre(s)"
+msgstr "Gattung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:178
+msgid "Sub-Genre(s)"
+msgstr "Unter-Gattung(en)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:179
+msgid "Similar Books"
+msgstr "Ähnliche Bücher"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:180
+msgid "Keywords"
+msgstr "Schlagwörter"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:181
+msgid "Other Editions"
+msgstr "Weitere Ausgaben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:182
+msgid "Short Description"
+msgstr "Kurzbeschreibung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:183
+msgid "Full Description"
+msgstr "Komplettbeschreibung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:184
+msgid "Notes"
+msgstr "Notizen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:185
+msgid "Language"
+msgstr "Sprache"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:186
+msgid "Edition"
+msgstr "Ausgabe"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:187
+msgid "Series"
+msgstr "Reihen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:188
+msgid "Number In Series"
+msgstr "Nummer der Reihe"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:189
+msgid "Format"
+msgstr "Format"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:190
+msgid "Amazon Link"
+msgstr "Amazon Link"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:191
+msgid "Barnes & Noble"
+msgstr "Barnes & Noble"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:192
+msgid "Google Books Link"
+msgstr "Google Books Link"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:193
+msgid "Apple iBooks Link"
+msgstr "Apple iBooks Link"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:194
+msgid "Goodreads Link"
+msgstr "Goodreads Link"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:195
+msgid "Books-A-Million Link"
+msgstr "Books-A-Million Link"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:196
+msgid "Kobo Link"
+msgstr "Kobo Link"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:197
+msgid "Author's Link"
+msgstr "Autorenlink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:198
+#: includes/classes/translations/class-wpbooklist-translations.php:310
+msgid "Front Cover Image"
+msgstr "Bild der Vorderseite"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:199
+msgid "Back Cover Image"
+msgstr "Rückseitenbild"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:200
+msgid "Choose Image"
+msgstr "Bild auswählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:201
+msgid "Additional Image 1"
+msgstr "Zusätzliches Bild 1"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:202
+msgid "Additional Image 2"
+msgstr "Zusätzliches Bild 2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:203
+msgid "Enter Image URL"
+msgstr "Bild-URL eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:204
+msgid ""
+"Here you'll  enter the ISBN 10 number for this book. This is only required "
+"if you choose to gather book information from Amazon, and don't enter an "
+"ISBN 13 or ASIN number"
+msgstr ""
+"Hier gibst Du die ISBN 10 Nummer für dieses Buch ein. Dies ist nur "
+"erforderlich, wenn Du Dich dafür entscheidest, Buchinformationen von Amazon "
+"zu sammeln, und keine ISBN 13 oder ASIN-Nummer eingibst."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:205
+msgid ""
+"Here you'll  enter the ISBN 13 number for this book. This is only required "
+"if you choose to gather book information from Amazon, and don't enter an "
+"ISBN 10 or ASIN number. This can be entered with or without a dash"
+msgstr ""
+"Hier gibst Du die ISBN 13-Nummer für dieses Buch ein. Dies ist nur "
+"erforderlich, wenn Du Dich dafür entscheidest, Buchinformationen von Amazon "
+"zu sammeln, und keine ISBN 10 oder ASIN-Nummer eingibst. Diese kann mit oder "
+"ohne Bindestrich eingegeben werden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:206
+msgid ""
+"Here you'll enter the ASIN number for this book. This is only required if "
+"you choose to gather book information from Amazon, and don't enter an ISBN "
+"10 or ISBN 13 number"
+msgstr ""
+"Hier gibst Du die ASIN-Nummer für dieses Buch ein. Dies ist nur "
+"erforderlich, wenn Du Dich dafür entscheidest, Buchinformationen von Amazon "
+"zu sammeln, und keine ISBN 10 oder ISBN 13-Nummer eingibst."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:207
+msgid ""
+"Here you'll enter the Title for this book. If you choose to not gather book "
+"information from Amazon, then this becomes the only required field on this "
+"entire page"
+msgstr ""
+"Hier gibst Du den Titel für dieses Buch ein. Wenn Du Dich dafür "
+"entscheidest, keine Buchinformationen von Amazon zu sammeln, dann wird dies "
+"das einzige benötigte Feld auf dieser gesamten Seite."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:208
+msgid "Here you'll enter the Original Title for this book"
+msgstr "Hier gibst Du den Originaltitel des Buches an"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:209
+msgid ""
+"Here you'll enter the Publisher and/or Publishing Company for this book."
+msgstr "Hier gibst Du den Verleger oder den Verlag zu diesem Buch ein"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:210
+msgid ""
+"Here you'll enter the Illustrator for this book, if there is one, or perhaps "
+"use this field for the Book Cover Artist"
+msgstr ""
+"Hier gibst Du den Zeichner für dieses Buch an, sofern es einen gibt, "
+"ansonsten kannst Du dieses Feld für den Gestalter des Umschlagbildes "
+"verwenden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:211
+msgid "This is not a required field"
+msgstr "Diese Feld muss nicht befüllt werden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:212
+msgid "Here you'll enter the number of Pages for this book"
+msgstr "Hier gibst Du die Seitenanzahl ein"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:213
+msgid ""
+"Here you'll enter the Call Number that your Library or Organization uses for "
+"this book"
+msgstr ""
+"Hier gibst Du die Rufnummer ein, die Deine Bibliothek oder Organisation für "
+"dieses Buch verwendet."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:214
+msgid "Here you'll enter the Author for this book"
+msgstr "Hier kannst Du den Namen des Buchautors eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:215
+msgid "Here you can enter the name of a second Author for this book"
+msgstr "Hier kannst Du den Namen eines zweiten Autors für dieses Buch eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:216
+msgid "Here you can enter the name of a third Author for this book"
+msgstr "Hier kannst Du den Namen eines dritten Autors für dieses Buch eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:217
+msgid ""
+"Simply type the name of the Author in a normal, first-name last-name format, "
+"followed by any available credentials. Examples: Jake R. Evans, Ph.D., or "
+"David McCullough"
+msgstr ""
+"Gib einfach den Namen des Autors in einem normalen Format ein (Vorname, "
+"Nachname), gefolgt von allen verfügbaren Referenzen. Beispiele: Jake R. "
+"Evans, Ph.D., oder David McCullough"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:218
+msgid "Second Author"
+msgstr "Zweiter Autor"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:219
+msgid "Third Author"
+msgstr "Dritter Autor"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:220
+msgid ""
+"Here you can enter the Language this book is written in. If this book comes "
+"in multiple Languages, consider adding an individual book for each Language "
+"- usually, if the same book is translated into multiple languages, each one "
+"of those language-specific versions will have it's own unique ISBN number"
+msgstr ""
+"Hier kannst Du die Sprache, in der dieses Buch geschrieben ist, eingeben. "
+"Wenn dieses Buch in mehreren Sprachen erscheint, solltest Du ein "
+"individuelles Buch für jede Sprache hinzufügen. Normalerweise hat jede "
+"sprachspezifische Version ihre eigene eindeutige ISBN-Nummer, wenn das "
+"gleiche Buch in mehrere Sprachen übersetzt wird."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:221
+msgid "Here you can specify the Edition of this book"
+msgstr "Hier kannst Du die Ausgabe des Buches angeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:222
+msgid ""
+"Here you'll enter the name of the Series this book is a member of, if "
+"applicable. For example, if I were adding the book \"Harry Potter and the "
+"Goblet of Fire,\" I would enter \"Harry Potter\" in this field"
+msgstr ""
+"Hier gibst Du den Namen der Reihe ein, zu der dieses Buch, falls zutreffend, "
+"gehört. Wenn ich zum Beispiel das Buch \"Harry Potter und der Feuerkelch\" "
+"hinzufüge, würde ich \"Harry Potter\" in diesem Bereich eingeben."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:223
+msgid ""
+"Here you can enter what number within a series this book is, if applicable. "
+"For example, if I were adding the book \"Harry Potter and the Goblet of Fire,"
+"\" I would enter \"4,\" as it's the 4th book in the \"Harry Potter\" Series"
+msgstr ""
+"Hier kannst Du gegebenenfalls eintragen, welche Nummer einer Reihe das Buch "
+"ist. Wenn ich zum Beispiel das Buch \"Harry Potter und der Feuerkelch\" "
+"hinzufüge, würde ich \"4\" eingeben, da es das vierte Buch der \"Harry Potter"
+"\"-Reihe ist."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:224
+msgid ""
+"Here you'll enter the format this book is in. Use this creatively to suite "
+"your needs - specify whether this is a Paperback book or a Hardcover, or if "
+"it's a Chapter Book, a Choose-Your-Adventure Book, a Graphic Novel, an E-"
+"Book, etc"
+msgstr ""
+"Hier gibst Du das Format des Buches. Verwenden Sie dieses angepasst an Deine "
+"Bedürfnisse zu erfüllen - gib an, ob es sich um ein Taschenbuch oder ein "
+"Hardcover handelt, oder ob es sich um ein Kapitelbuch, ein Such-Dein-"
+"Abenteuer-Buch, eine graphische Novelle, ein eBook, ein Magazin, etc. "
+"handelt."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:225
+msgid "Here you can enter the link to this book's Amazon page"
+msgstr "Hier kannst Du den Link zur Amazon-Seite dieses Buches eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:226
+msgid "Here you can enter the link to this book's Barnes & Noble page"
+msgstr ""
+"Hier kannst Du den Link zur Barnes & Noble-Seite dieses Buches eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:227
+msgid "Here you can enter the link to this book's Google Books page"
+msgstr "Hier kannst Du den Link zur Google Book-Seite dieses Buches eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:228
+msgid "Here you can enter the link to this book's Apple iBooks page"
+msgstr "Hier kannst Du den Link zur Apple iBook-Seite dieses Buches eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:229
+msgid "Here you can enter the link to this book's Goodreads page"
+msgstr "Hier kannst Du den Link zur Goodreads-Seite dieses Buches eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:230
+msgid "Here you can enter the link to this book's Books-a-Million page"
+msgstr ""
+"Hier kannst Du den Link zur Book-a-Million-Seite dieses Buches eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:231
+msgid "Here you can enter the link to this book's Kobo page"
+msgstr "Hier kannst Du den Link zur Kobo-Seite dieses Buches eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:232
+msgid ""
+"It's best to enter the full link, copied straight from your browser. For "
+"example: https://www.booklink.com/"
+msgstr ""
+"Am besten gibst Du den vollständigen Link ein, direkt aus Deinem Browser "
+"herauskopiert. Zum Beispiel: https://www.booklink.com/"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:233
+msgid ""
+"Here you can enter the link to the Author's website, if one exists, or maybe "
+"a link to the website for this book itself, if it has one"
+msgstr ""
+"Hier kannst Du den Link zur Website des Autors eingeben, wenn es einen gibt, "
+"oder vielleicht einen Link auf die Website für dieses Buch selbst, wenn es "
+"einen hat."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:234
+msgid "Select WPBookList Libraries"
+msgstr "WPBookList Bibliotheken auswählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:235
+msgid ""
+"Here you'll select which WPBookList Library(s) to add this book to. You can "
+"select multiple libraries, or leave this field as it is to add this book to "
+"only the Default WPBookList Library. Create your own custom WPBookList "
+"Libraries towards the bottom of the <a href=\""
+msgstr ""
+"Hier wählst Du aus, zu welcher WPBookList Bibliothek bzw. zu welchen "
+"Bibliotheken dieses Buch hinzugefügt werden soll. Du kannst mehrere "
+"Bibliotheken auswählen oder dieses Feld verlassen, um dieses Buch nur der "
+"Standard WPBookList Bibliothek hinzuzufügen. Erstelle Deine eigenen "
+"WPBookList Bibliotheken unter <a href = \""
+
+#: includes/classes/translations/class-wpbooklist-translations.php:236
+msgid "\">WPBookList Settings Page</a>"
+msgstr "\"> WPBookList Einstellungen</a>"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:237
+msgid ""
+"By checking yes, WPBookList will try and grab as much info as possible for "
+"this book from Amazon, but you'll have to provide either an ISBN or ASIN "
+"number to do so. WPBookList uses it's own Amazon API keys to do this, but if "
+"have your own API keys and would like to use those instead, you can do so on "
+"the <a href=\""
+msgstr ""
+"Bei 'JA', wird WPBookList versuchen, so viele Informationen wie möglich für "
+"dieses Buch von Amazon einzuholen, aber Du musst entweder eine ISBN oder "
+"eine ASIN-Nummer angeben, um dies zu veranlassen. WPBookList verwendet dafür "
+"eigene Amazon-API-Schlüssel, aber wenn Du Deine eigenen API-Schlüssel hast "
+"und diese stattdessen verwenden möchtest, kannst Du dies vornehmen unter dem "
+"<a href = \""
+
+#: includes/classes/translations/class-wpbooklist-translations.php:239
+msgid "&tab=api\">API Settings Tab of the WPBookList Settings Page</a>"
+msgstr ""
+"& tab = api \"> API-Einstellungen Tab der WPBookList Einstellungen-Seite </a>"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:240
+msgid ""
+"If you check no, WPBookList will still try and grab book info from other "
+"sources such as Google, OpenLibrary, and iBooks. In this case, the Title "
+"field is the only required field. Either way, whatever values you enter into "
+"the fields below will override what WPBookList finds out on the Internet"
+msgstr ""
+"Wenn Du 'nein' wählst, wird WPBookList immer noch versuchen, "
+"Buchinformationen aus anderen Quellen wie Google, OpenLibrary und iBooks "
+"einzuholen. In diesem Fall ist das Titelfeld das einzige benötigte Feld. So "
+"oder so, welche Werte Du auch in die unteren Felder eingibst, sie "
+"überschreiben das Ergebnis aus dem Internet"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:241
+msgid "Grab Amazon Info?"
+msgstr "Amazon Info heranziehen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:242
+msgid "Add Book"
+msgstr "Buch hinzufügen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:243
+msgid "Star Rating"
+msgstr "Sternebewertung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:244
+msgid "Select a Rating..."
+msgstr "Wähle eine Bewertung..."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:245
+msgid "5"
+msgstr "5"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:246
+msgid "4"
+msgstr "4"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:247
+msgid "3"
+msgstr "3"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:248
+msgid "2"
+msgstr "2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:249
+#: includes/classes/translations/class-wpbooklist-translations.php:463
+msgid "1"
+msgstr "1"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:250
+msgid "1/2"
+msgstr "1/2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:251
+msgid "Stars"
+msgstr "Sterne"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:252
+msgid "Star"
+msgstr "Stern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:253
+msgid "N/A"
+msgstr "Nicht verfügbar"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:254
+#: includes/classes/translations/class-wpbooklist-translations.php:316
+msgid "Out of Print"
+msgstr "Druckausgabe nicht verfügbar"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:256
+msgid "Signed Copy"
+msgstr "Signed Copy"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:257
+msgid "Create a Page?"
+msgstr "Eine Seite erstellen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:258
+msgid "Create a Post?"
+msgstr "Einen Beitrag erstellen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:259
+msgid "Link Text"
+msgstr "Link Text"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:260
+msgid "Link URL"
+msgstr "Link URL"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:261
+msgid "Select an Option..."
+msgstr "Wähle eine Einstellung..."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:262
+msgid "Here you can manage all of the"
+msgstr "Verwalte hier alle"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:263
+msgid "WPBookList StoryTime"
+msgstr "WPBookList Erzählungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:264
+msgid ""
+"Settings, to include how long Stories are kept, how you'd like to be notifed "
+"when new Stories arrive, whether or not to create a Page and/or Post when "
+"new Stories arrive, and more!"
+msgstr ""
+"Einstellungen, um festzulegen, wie lange Erzählungen behalten werden, wie Du "
+"benachrichtigt werden möchtest, wenn neue Erzählungen eintreffen, ob Du eine "
+"Seite und/oder Beitrag erstellen möchtest, wenn neue Erzählungen verfügbar "
+"sind, und mehr!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:265
+msgid "Remember, use this shortcode to display the Storytime Reader:"
+msgstr ""
+"Denke daran, diesen Shortcode zu verwenden, um das Lesegerät für Erzählungen "
+"zu verwenden:"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:266
+msgid "Create a Post every time a new Story arrives?"
+msgstr ""
+"Jedes Mal wenn eine neue Erzählung verfügbar ist, einen neuen Beitrag "
+"anlegen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:267
+msgid "Create a Page every time a new Story arrives?"
+msgstr ""
+"Jedes Mal wenn eine neue Erzählung verfügbar ist, eine neue Seite anlegen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:268
+msgid "Delete all Default StoryTime Content?"
+msgstr "Alle Standard Erzählungen Inhalte löschen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:269
+msgid "Display Dashboard notification when new Stories arrive?"
+msgstr "Dashboard Nachricht anzeigen sobald eine neue Erzählung verfügbar ist?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:270
+msgid "Disable StoryTime (you will no longer receive"
+msgstr "Erzählungen deaktivieren (du erhältst nicht länger"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:271
+msgid "ANY"
+msgstr "Einzeln"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:272
+msgid "Stories"
+msgstr "Erzählungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:273
+msgid "Keep Stories for"
+msgstr "Behalte Erzählungen für"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:274
+msgid "Days (leave blank to keep all Stories forever)"
+msgstr "Tage (leer lassen, um alle Erzählungen für immer zu behalten)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:275
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:276
+#: includes/ui/admin/class-admin-master-ui.php:199
+msgid "StoryTime"
+msgstr "Erzählungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:277
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:278
+msgid ""
+"To Edit this book, simply make your desired changes in the fields below and "
+"click the 'Save Changes' button at the bottom of this section."
+msgstr ""
+"Um dieses Buch zu bearbeiten, führe einfach Deine gewünschten Änderungen in "
+"den unteren Feldern durch und klicke auf den Button \"Änderungen speichern\" "
+"am unteren Rand dieses Abschnitts."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:280
+msgid "Filter Section"
+msgstr "Filterbereich"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:281
+msgid "Edition Sort Option"
+msgstr "Sortiereinstellung: Ausgabe"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:282
+msgid "Quote Section"
+msgstr "Angebotsbereich"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:283
+msgid "Review Stars"
+msgstr "Bewertungssterne"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:284
+msgid "Search & Sort"
+msgstr "Suche & Sortiere"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:285
+msgid "Signed Sort Option"
+msgstr "Sortiereinstellung: Unterzeichnet"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:286
+msgid "Statistics Section"
+msgstr "Statistikbereich"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:287
+msgid "Subject Sort Option"
+msgstr "Sortiereinstellung: Betreff"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:288
+msgid "Finished Sort Option"
+msgstr "Sortiereinstellung: Fertig"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:289
+msgid "Check All"
+msgstr "Alle auswählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:290
+msgid "Uncheck All"
+msgstr "Alle abwählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:291
+msgid "Set Default Sorting"
+msgstr "Standardsortierung einstellen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:292
+msgid "Set Books Per Page"
+msgstr "Bücher pro Seite"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:293
+msgid "Library View Display Options"
+msgstr "Bibliotheksansicht Anzeigeoptionen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:294
+msgid ""
+"Here you can set what display options are visible or hidden in your Library "
+"Views (the view with all the books in a Library). Select a Library to apply "
+"these display options to in the drop-down below, place checkmarks in the "
+"checkboxes for the items you want hidden, and click the 'Save Changes' "
+"button at the bottom of the page."
+msgstr ""
+"Hier kannst Du festlegen, welche Bereiche in Deinen Bibliotheksansichten "
+"sichtbar oder versteckt sind (die Ansicht mit allen Büchern in einer "
+"Bibliothek). Wähle eine Bibliothek, um diese Anzeigeoptionen aus dem "
+"untenstehenden Drop-Down anzuwenden, aktiviere die Kontrollkästchen für die "
+"Bereiche, die Du versteckt haben möchtest, und klicke auf den Button "
+"\"Änderungen speichern\" am Ende der Seite."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:295
+msgid "Book View Display Options"
+msgstr "Optionen für die Anzeige von Buchanzeigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:296
+msgid ""
+"Here you can set what display options are visible or hidden in your Book "
+"Views (the pop-up window that appears when clicking on a book). Select a "
+"Library to apply these display options to from the drop-down below, place "
+"checkmarks in the checkboxes for the items you want hidden, and click the "
+"'Save Changes' button at the bottom of the page."
+msgstr ""
+"Hier kannst Du festlegen, welche Bereiche in Deinen Buchansichten sichtbar "
+"oder versteckt sind (das Pop-up-Fenster, das beim Anklicken eines Buches "
+"erscheint). Wähle eine Bibliothek, um diese Anzeigeoptionen aus dem unten "
+"angezeigten Drop-Down anzuwenden, aktiviere die Kontrollkästchen für die "
+"Bereiche, die Du versteckt haben möchtest, und klicke auf den Button "
+"\"Änderungen speichern\" am Ende der Seite."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:297
+msgid "Amazon Purchase Link"
+msgstr "Amazon Kauflink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:298
+msgid "Amazon Reviews"
+msgstr "Amazon Rezension"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:299
+msgid "B&N Purchase Link"
+msgstr "B&N Kauflink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:300
+msgid "Book Finished"
+msgstr "Buch fertig"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:301
+msgid "Page Link"
+msgstr "Seitenlink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:302
+msgid "Post Link"
+msgstr "Beitragslink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:304
+msgid "Books-A-Million Purchase Link"
+msgstr "Book-A-Million Kauflink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:305
+msgid "Country"
+msgstr "Land"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:306
+msgid "Email Share Button"
+msgstr "per E-Mail teilen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:307
+msgid "Facebook Messenger Button"
+msgstr "Facebook Messenger"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:308
+msgid "Facebook Share Button"
+msgstr "Auf Facebook teilen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:309
+msgid "Featured Titles Section"
+msgstr "Vorgestellter Titel Bereich"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:311
+msgid "Goodreads Widget"
+msgstr "Goodreads Widget(Steuerelement)"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:312
+msgid "Google Purchase Link"
+msgstr "Google Kauflink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:314
+msgid "iBooks Purchase Link"
+msgstr "iBook Kauflink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:315
+msgid "Kobo Purchase Link"
+msgstr "Kobo Kauflink"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:317
+msgid "Pinterest Share Button"
+msgstr "Auf Pinterest teilen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:318
+msgid "Twitter Share Button"
+msgstr "Auf Twitter teilen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:319
+msgid ""
+"Here you can set what display options are visible or hidden in your "
+"WPBookList Posts. Place checkmarks in the checkboxes for the items you want "
+"hidden, and click the 'Save Changes' button at the bottom of the page."
+msgstr ""
+"Hier kannst Du festlegen, welche Bereiche in Deinen WPBookList Beiträgen "
+"sichtbar oder versteckt sind. Aktiviere die Kontrollkästchen für die "
+"Artikel, die Du versteckt haben möchtest, und klicke auf den Button "
+"\"Änderungen speichern\" am Ende der Seite."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:320
+msgid ""
+"Here you can set what display options are visible or hidden in your "
+"WPBookList Pages. Place checkmarks in the checkboxes for the items you want "
+"hidden, and click the 'Save Changes' button at the bottom of the page."
+msgstr ""
+"Hier kannst Du festlegen, welche Bereiche in Deinen WPBookList Seiten "
+"sichtbar oder versteckt sind. Aktiviere die Kontrollkästchen für die "
+"Artikel, die Du versteckt haben möchtest, und klicke auf den Button "
+"\"Änderungen speichern\" am Ende der Seite."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:321
+msgid "Already Created"
+msgstr "Bereits angelegt"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:322
+msgid "What's a"
+msgstr "Was ist ein"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:323
+msgid "Template Pak"
+msgstr "Vorlagen Paket"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:324
+msgid "you ask?"
+msgstr "hast Du Fragen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:325
+#: includes/ui/admin/class-admin-master-ui.php:181
+msgid "Template Paks"
+msgstr "Vorlagen Pakete"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:326
+msgid "are the best way to instantly change the look and feel of your"
+msgstr "sind der beste Weg, um sofort das Aussehen und die Haptik Deiner"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:327
+msgid "Pages and Posts!"
+msgstr "Seiten und Beiträge!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:328
+msgid "StoreFront Extension"
+msgstr "Schaufenster Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:329
+msgid "Template Pak Bundle!"
+msgstr "Vorlagenpaket!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:330
+msgid "Can't decide on just one Template Pak? Get 'em all with the"
+msgstr ""
+"Kannst Du Dich nicht nur für ein Vorlagenpaket entscheiden? Hole Dir alle "
+"mit dem"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:331
+#: includes/ui/admin/class-admin-master-ui.php:163
+msgid "StylePaks"
+msgstr "Stilvorlagen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:332
+msgid "Storytime Settings"
+msgstr "Einstellungen für Erzählungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:333
+#: includes/ui/admin/class-admin-master-ui.php:145
+#: includes/ui/admin/class-admin-master-ui.php:246
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:334
+#: includes/ui/admin/class-admin-master-ui.php:242
+msgid "Custom Libraries & Shortcodes"
+msgstr "Benutzerdefinierte Bibliotheken und Shortcodes"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:335
+#: includes/ui/admin/class-admin-master-ui.php:243
+msgid "API Settings"
+msgstr "API Einstellungen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:336
+msgid "Library Name"
+msgstr "Bibliotheken Name"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:337
+msgid "Active Library StylePak"
+msgstr "Aktive Bibliothek Stilvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:338
+msgid "Default Library StylePak"
+msgstr "Standard Bibliothek Stilvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:339
+#: includes/classes/translations/class-wpbooklist-translations.php:342
+msgid "Library"
+msgstr "Bibliothek"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:340
+msgid "Library StylePak"
+msgstr "Bibliothek Stilvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:341
+#: includes/ui/admin/class-admin-display-librarystylepaks-tab-ui.php:34
+#: includes/ui/admin/class-admin-master-ui.php:222
+msgid "Library StylePaks"
+msgstr "Bibliothek Stilvorlagen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:343
+msgid "Libraries!"
+msgstr "Bibliotheken!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:344
+msgid "Simply"
+msgstr "Einfach"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:345
+msgid "Purchase a $2 Library StylePak here"
+msgstr "Kaufe hier eine $2 Bibliothek Stilvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:346
+msgid "upload it using the"
+msgstr "lade es hoch unter Verwendung von"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:347
+msgid "Upload a New Library StylePak"
+msgstr "Lade eine neuen Bibliotheks-Stilvorlage hoch"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:348
+msgid ""
+"button below, and assign your new Library StylePak to a Library - it's that "
+"simple!"
+msgstr ""
+"Button unten, und weise Deine neue Stilvorlage einer Bibliothek zu - so "
+"einfach ist es!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:349
+msgid "StylePak1 Demo"
+msgstr "Stilvorlage 1 Demo"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:350
+msgid "StylePak2 Demo"
+msgstr "Stilvorlage 2 Demo"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:351
+msgid "StylePak3 Demo"
+msgstr "Stilvorlage 3 Demo"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:352
+msgid "StylePak4 Demo"
+msgstr "Stilvorlage 4 Demo"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:353
+msgid "StylePak5 Demo"
+msgstr "Stilvorlage 5 Demo"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:354
+msgid "Click Here to Upload Your Purchased StylePak!"
+msgstr "Klicke hier, um Deine gekaufte Stilvorlage hochzuladen!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:355
+msgid "Select a Library StylePak"
+msgstr "Eine Bibliothek Stilvorlage auswählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:356
+msgid "Default StylePak"
+msgstr "Standard Stilvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:357
+msgid "Apply Library StylePak"
+msgstr "Bibliothek Stilvorlage anwenden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:358
+msgid "StylePak6 Demo"
+msgstr "Stilvorlage 6 Demo"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:359
+msgid "Active Page Template"
+msgstr "Aktive Seitenvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:360
+msgid "Click Here to Upload Your Purchased Page Template!"
+msgstr "Klicke hier, um Deine gekaufte Seitenvorlage hochzuladen!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:361
+msgid "Page Template"
+msgstr "Seitenvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:362
+#: includes/ui/admin/class-admin-display-pagetemplates-tab-ui.php:34
+#: includes/ui/admin/class-admin-master-ui.php:223
+msgid "Page Templates"
+msgstr "Seitenvorlagen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:363
+msgid "Pages!"
+msgstr "Seiten!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:364
+msgid "Purchase a $2 Page Template Here"
+msgstr "Kaufe hier eine $2 Seitenvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:365
+msgid "Upload a New Page Template"
+msgstr "Eine neue Seitenvorlage hochladen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:366
+msgid ""
+"button below, and assign your new Page Template to your WPBookList Pages - "
+"it's that simple!"
+msgstr ""
+"Button unten, und weise Deine neue Seitenvorlage Deinen WPBookList Seiten zu "
+"- so einfach ist es!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:367
+msgid "Page Template 1"
+msgstr "Seitenvorlage 1"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:368
+msgid "Page Template 2"
+msgstr "Seitenvorlage 2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:369
+msgid "Page Template 3"
+msgstr "Seitenvorlage 3"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:370
+msgid "Page Template 4"
+msgstr "Seitenvorlage 4"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:371
+msgid "Page Template 5"
+msgstr "Seitenvorlage 5"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:372
+msgid "Select a Page Template To Apply to Your WPBookList Pages"
+msgstr ""
+"Wähle eine Seitenvorlage, um Sie auf Deine WPBooklist-Seiten anzuwenden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:373
+msgid "Select a Page Template"
+msgstr "Wähle eine Seitenvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:374
+msgid "Default Page Template"
+msgstr "Standard-Seitenvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:375
+msgid "Apply Page Template"
+msgstr "Seitenvorlage anwenden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:376
+msgid "Active Post Template"
+msgstr "Aktive Beitragsvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:377
+msgid "Click Here to Upload Your Purchased Post Template!"
+msgstr "Hier klicken, um Deine gekaufte Beitragsvorlage hochzuladen!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:378
+msgid "Post Template"
+msgstr "Beitragsvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:379
+#: includes/ui/admin/class-admin-display-posttemplates-tab-ui.php:34
+#: includes/ui/admin/class-admin-master-ui.php:224
+msgid "Post Templates"
+msgstr "Beitragsvorlagen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:380
+msgid "Posts!"
+msgstr "Beiträge!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:381
+msgid "Purchase a $2 Post Template Here"
+msgstr "Kaufe hier eine $2 Beitragsvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:382
+msgid "Upload a New Post Template"
+msgstr "Eine neue Beitragsvorlage hochladen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:383
+msgid ""
+"button below, and assign your new Post Template to your WPBookList Posts - "
+"it's that simple!"
+msgstr ""
+"Button unten, und weise Deine neue Beitragsvorlage Deinen WPBookList "
+"Beiträgen zu - so einfach ist es!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:384
+msgid "Post Template 1"
+msgstr "Beitragsvorlage 1"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:385
+msgid "Post Template 2"
+msgstr "Beitragsvorlage 2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:386
+msgid "Post Template 3"
+msgstr "Beitragsvorlage 3"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:387
+msgid "Post Template 4"
+msgstr "Beitragsvorlage 4"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:388
+msgid "Post Template 5"
+msgstr "Beitragsvorlage 5"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:389
+msgid "Select a Post Template To Apply to Your WPBookList Posts"
+msgstr ""
+"Wähle eine Beitragsvorlage, um sie mit Deinen WPBookList Beiträgen zu "
+"verwenden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:390
+msgid "Select a Post Template"
+msgstr "Wähle eine Beitragsvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:391
+msgid "Default Post Template"
+msgstr "Standard-Beitragsvorlage"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:392
+msgid "Apply Post Template"
+msgstr "Beitragsvorlage anwenden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:393
+msgid ""
+"comes pre-loaded with default API keys, but if you'd rather use your own, "
+"simply enter them in the fields below and click"
+msgstr ""
+"Kommt mit Standard-API-Keys, aber wenn Du lieber Deine eigenen verwenden "
+"möchtest, gib sie einfach unten in die Felder ein und klicke"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:394
+msgid "Save API Settings"
+msgstr "API-Einstellungen speichern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:395
+msgid "Amazon Public Key"
+msgstr "Amazon Öffentlicher Schlüssel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:396
+msgid "Paste API Key Here..."
+msgstr "API Key hier einfügen..."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:397
+msgid "Get Amazon API Keys"
+msgstr "Amazon API Keys holen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:398
+msgid "Amazon Secret Key"
+msgstr "Amazon geheimer Schlüssel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:399
+msgid "Google Books API Key"
+msgstr "Google Books API Key"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:400
+msgid "Get Google API Keys"
+msgstr "Get Google API Keys holen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:401
+msgid "Apple iBooks API Key"
+msgstr "Apple iBooks API Key"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:402
+msgid "Select a Library to Create a .CSV File From:"
+msgstr "Eine Bibliothek auswählen, um eine '.CSV' Datei zu erstellen:"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:403
+msgid ""
+"Choose what countries' Amazon information you'd like to display below, and"
+msgstr ""
+"Wähle aus welchem Land die Amazon-Informationen unten angezeigt werden "
+"sollen und"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:404
+msgid "will show Amazon Reviews and Links from that country only"
+msgstr "zeigt Amazon Bewertungen und Links nur aus diesem Land"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:405
+msgid "US-Based Amazon Info"
+msgstr "Amazon Info aus Amerika"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:406
+msgid "UK-Based Amazon Info"
+msgstr "Amazon Info aus England"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:407
+msgid "Australia-Based Amazon Info"
+msgstr "Amazon Info aus Australien"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:408
+msgid "Brazil-Based Amazon Info"
+msgstr "Amazon Info aus Brasilien"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:409
+msgid "Canada-Based Amazon Info"
+msgstr "Amazon Info aus Kanada"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:410
+msgid "China-Based Amazon Info"
+msgstr "Amazon Info aus China"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:411
+msgid "France-Based Amazon Info"
+msgstr "Amazon Info aus Frankreich"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:412
+msgid "Germany-Based Amazon Info"
+msgstr "Amazon Info aus Deutschland"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:413
+msgid "India-Based Amazon Info"
+msgstr "Amazon Info aus Indien"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:414
+msgid "Italy-Based Amazon Info"
+msgstr "Amazon Info aus Italien"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:415
+msgid "Japan-Based Amazon Info"
+msgstr "Amazon Info aus Japan"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:416
+msgid "Mexico-Based Amazon Info"
+msgstr "Amazon-Info aus Mexiko"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:417
+msgid "Netherlands-Based Amazon Info"
+msgstr "Amazon Info von den Niederlanden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:418
+msgid "Spain-Based Amazon Info"
+msgstr "Amazon Info aus Spanien"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:419
+msgid "Singapore-Based Amazon Info"
+msgstr "Amazon Info aus Singapur"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:420
+msgid ""
+"In short, WPBookList collects one thing and one thing only: The URL of the "
+"website that WPBookList was activated on. That's It"
+msgstr ""
+"Kurz gesagt, WPBookList sammelt nur eines: Die URL der Website, auf der "
+"WPBookList aktiviert wurde. Das wars"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:421
+#: includes/classes/translations/class-wpbooklist-translations.php:423
+msgid "Why does WPBookList record the URL its activated on?"
+msgstr "Warum zeichnet WPBookList die URL auf, auf der sie aktiviert ist?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:422
+msgid ""
+"utilizes the WordPress REST API to perform certain functions, like "
+"displaying admin messages, communicating with"
+msgstr ""
+"Nutzt die WordPress REST API, um bestimmte Funktionen durchzuführen, wie die "
+"Anzeige von Admin-Nachrichten, die Kommunikation mit"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:424
+msgid "The Mobile App"
+msgstr "Die mobile App"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:425
+msgid ""
+"pushing new StoryTime Stories, etc., and in order to complete those actions, "
+"WPBookList needs your URL"
+msgstr ""
+"Neue Erzählungen, etc., und um diese Aktionen zu vervollständigen, braucht "
+"WPBookList Ihre URL"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:426
+msgid "Can I request to have my URL removed & not recorded?"
+msgstr ""
+"Kann ich verlangen, dass meine URL entfernt und nicht aufgezeichnet wird?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:427
+msgid "Absolutely! Simply shoot an E-Mail to"
+msgstr "Absolut! Einfach eine E-Mail schicken"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:428
+msgid ""
+"with the subject line of 'Remove My URL', and we'll delete your URL from our "
+"records. Simple as that"
+msgstr ""
+"Mit der Betreffzeile \"Meine URL entfernen\" wird Deine URL aus unseren "
+"Datensätzen gelöscht. So einfach"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:429
+msgid "Refund Policy"
+msgstr "Rückgaberecht"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:430
+msgid "Generally speaking, refunds aren't given for the purchase of"
+msgstr "Im Allgemeinen sind Rückerstattungen nicht für den Kauf von"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:431
+msgid "and"
+msgstr "und"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:432
+msgid "but if you feel your purchase is"
+msgstr "aber wenn Du das Gefühl hast, das Dein Kauf"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:433
+msgid "signifigantly"
+msgstr "signifikant"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:434
+msgid "not what it was advertised to be, feel free to get in touch at"
+msgstr "nicht das was die Werbung versprach, nimm ruhig Kontakt auf unter"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:435
+msgid "Thanks for Using"
+msgstr "Danke für die Verwendung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:436
+msgid "Looks Like you're not a"
+msgstr "Sieht so aus, als ob du noch nicht ein"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:437
+msgid "Patron yet!"
+msgstr "Patron wärst!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:438
+msgid "for just"
+msgstr "für lediglich"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:439
+msgid "$1 a month"
+msgstr "$1 pro Monat"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:440
+msgid "you'll receive quality content several times per week, including:"
+msgstr "Du erhältst mehrmals pro Woche hochwertige Inhalte, darunter:"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:441
+msgid "Sample Book Chapters"
+msgstr "Probekapitel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:442
+msgid "Selected Excerpts"
+msgstr "Ausgewählte Auszüge"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:443
+msgid "Interviews with Authors"
+msgstr "Interviews mit Autoren"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:444
+msgid "Interviews with Publishers"
+msgstr "Interviews mit Verlegern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:445
+msgid "Exclusive Short Stories"
+msgstr "Exklusive Kurzgeschichten"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:446
+msgid ""
+"Once you become a Patron, content will auto-magically appear in the "
+"WPBookList StoryTime Reader"
+msgstr ""
+"Sobald Du Patron wirst, wird der Inhalt automatisch im WPBookList "
+"Erzählleser erscheinen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:447
+msgid "see"
+msgstr "ansehen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:448
+msgid "demo"
+msgstr "Demo"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:449
+msgid "below"
+msgstr "unterhalb"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:450
+msgid "no action required whatsoever!"
+msgstr "Es besteht keinerlei Handlungsbedarf!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:451
+msgid "All content comes straight from new and established authors"
+msgstr "Alle Inhalte stammen direkt von neuen und etablierten Autoren"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:452
+msgid "publishers, and other industry insiders!"
+msgstr "Verlage und andere Brancheninsider!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:453
+msgid "Step 1"
+msgstr "Schritt 1"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:454
+msgid "Become a Patron"
+msgstr "Werde Patron"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:455
+msgid "Step 2"
+msgstr "Schritt 2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:456
+msgid "Validate for Access!"
+msgstr "Für den Zugang validieren!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:457
+msgid "Check out a Demo of"
+msgstr "Schauen Dir eine Demo an von"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:458
+msgid "StoryTime Reader"
+msgstr "Erzählleser"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:460
+msgid "Select a Category"
+msgstr "Kategorie auswählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:464
+msgid "10"
+msgstr "10"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:467
+msgid "Wanna have your work featured in"
+msgstr "Stelle Deine Arbeit vor, im"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:468
+msgid "All content in"
+msgstr "Alle Inhalte in"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:469
+msgid ""
+"is exposed to thousands of individuals per month - makes for some awesome, "
+"unique, and effective advertising!"
+msgstr ""
+"ist für tausende Personen pro Monat ausgelegt - geeignet für eine "
+"einzigartige, tolle und effektive Werbung!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:470
+msgid "Send an E-Mail to"
+msgstr "Schicke ein E-Mail an"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:471
+msgid "for more info"
+msgstr "für weitere Infos"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:472
+msgid "Use this shortcode to display the Storytime Reader"
+msgstr "Verwende diesen Shortcode um den Erzählleser anzuzeigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:473
+msgid ""
+"New content will automatically appear in the StoryTime Reader below, "
+"organized by Category"
+msgstr ""
+"Neue Inhalte werden automatisch im Erzählungen Lesegerät unten angezeigt, "
+"sortiert nach Kategorie"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:474
+msgid ""
+"content-delivery platform, providing you and your website visitors with "
+"awesome content from Authors and Publishers, including sample chapters, "
+"exclusive short stories, interviews, news, and more!"
+msgstr ""
+"Kontextbezogene Inhalte‎, die Dir und Deinen Website-Besuchern tolle Inhalte "
+"von Autoren und Verlegern bietet, einschließlich Musterkapitel, exklusive "
+"Kurzgeschichten, Interviews, Nachrichten und mehr!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:475
+msgid "What is"
+msgstr "Was ist"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:476
+msgid "is"
+msgstr "ist"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:477
+msgid "WPBookList's"
+msgstr "WPBooklist es"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:478
+msgid "My Rating"
+msgstr "Meine Bewertung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:479
+msgid "Share This Book"
+msgstr "Teile dieses Buch"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:480
+msgid "Not Available"
+msgstr "Nicht verfügbar"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:481
+msgid "Subject"
+msgstr "Thema"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:482
+msgid "Yes, on"
+msgstr "Ja, auf"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:483
+msgid "Not Yet"
+msgstr "Nicht jetzt"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:484
+msgid "Book Page"
+msgstr "Buchseite"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:485
+msgid "Book Post"
+msgstr "Buchbeitrag"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:486
+msgid "Purchase This Book At"
+msgstr "Kaufe diese Buch bei"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:487
+msgid "Similar Titles"
+msgstr "Ähnliche Titel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:488
+msgid "Featured Titles"
+msgstr "Vorgestellter Titel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:489
+msgid "Description"
+msgstr "Beschreibung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:490
+msgid "None Provided"
+msgstr "Keiner verfügbar"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:491
+msgid "Add a WPBookList User"
+msgstr "Einen WPBookList Benutzer hinzufügen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:492
+msgid ""
+"To Add a New WPBookList User, Simply fill out the form below and click the "
+"'Create New User' button at the bottom of the page. The only required fields "
+"are"
+msgstr ""
+"Um einen neuen WPBookList Benutzer hinzuzufügen, einfach das untenstehende "
+"Formular ausfüllen und am Ende der Seite auf den Button \"Neue Benutzer "
+"erstellen\" klicken. Die einzigen benötigten Felder sind"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:493
+msgid "First Name"
+msgstr "Vorname"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:494
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:495
+msgid "Password"
+msgstr "Passwort"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:496
+msgid "Username"
+msgstr "Benutzername"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:497
+msgid "Feel free to leave everything else blank!"
+msgstr "Du kannst alles andere leer lassen!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:498
+msgid "Last Name"
+msgstr "Nachname"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:499
+msgid "Confirm E-Mail"
+msgstr "E-Mail Adresse bestätigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:500
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:501
+msgid "User Permissions & Capabilities"
+msgstr "Nutzungsrechte und Möglichkeiten"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:502
+msgid "All Libraries"
+msgstr "Alle Bibliotheken"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:503
+msgid "Select the Libraries this User can access: "
+msgstr "Wähle die Bibliotheken, auf die dieser Benutzer zugreifen kann: "
+
+#: includes/classes/translations/class-wpbooklist-translations.php:504
+msgid "Add Books?"
+msgstr "Bücher hinzufügen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:505
+msgid "Edit Books?"
+msgstr "Bücher bearbeiten?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:506
+msgid "Delete Books?"
+msgstr "Bücher löschen?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:507
+msgid "Change Display Options?"
+msgstr "Anzeige-Optionen ändern?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:508
+msgid "Change Settings?"
+msgstr "Einstellungen ändern?"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:509
+msgid "User Basics"
+msgstr "Benutzer Basics"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:510
+msgid "Create New User"
+msgstr "Neuen Benutzer anlegen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:511
+msgid "E-Mails don't match!"
+msgstr "E-Mail Adressen stimmen nicht überein!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:512
+msgid "Passwords don't match!"
+msgstr "Passwörter stimmen nicht überein!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:513
+msgid "Show Passwords"
+msgstr "Passwörter anzeigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:514
+msgid "Hide Passwords"
+msgstr "Passwörter verstecken"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:515
+msgid ""
+"Whoops! Looks like you might have missed entering some data, or there is an "
+"issue with the data you did enter!"
+msgstr ""
+"Hoppla! Es sieht so aus, als hättest Du vergessen einige Daten einzugeben, "
+"oder es gibt ein Problem mit den Daten, die Du eingegeben hast!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:516
+msgid "Looks like there's already a registered User with the E-Mail Address of"
+msgstr ""
+"Sieht so aus, als gäbe es bereits einen registrierten Benutzer mit dieser E-"
+"Mail-Adresse"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:517
+msgid "Try creating this User again with a different E-Mail Address"
+msgstr ""
+"Versuche, diesen User wieder mit einer anderen E-Mail-Adresse zu erstellen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:518
+msgid "Looks like there's already a registered User with the Username of"
+msgstr ""
+"Sieht so aus, als gäbe es bereits einen registrierten Benutzer mit diesem "
+"Benutzernamen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:519
+msgid "Try creating this User again with a different Username"
+msgstr "Versuch, diesen Benutzer mit einem anderen Benutzernamen zu erstellen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:520
+msgid "You've just created a new WPBookList User"
+msgstr "Du hast gerade einen neuen WPBookList Benutzer erstellt"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:521
+msgid "WPBookList Basic User"
+msgstr "WPBooklist Basisnutzer"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:522
+msgid "Looks like you don't have access to this part of WPBookList!"
+msgstr ""
+"Es sieht so aus, als hättest Du keinen Zugang zu diesem Teil der WPBookList!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:523
+msgid "Contact"
+msgstr "Kontakt"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:524
+msgid "at"
+msgstr "um"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:525
+msgid "to request access."
+msgstr "um Zugriff zu beantragen."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:526
+#: includes/ui/admin/class-admin-master-ui.php:109
+msgid "Edit & Delete Users"
+msgstr "Benutzer bearbeiten und löschen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:527
+msgid ""
+"To Edit or Delete a WPBookList User, Simply fill out the form below and "
+"click the 'Create New User' button at the bottom of the page. The only "
+"required fields are"
+msgstr ""
+"Um einen WPBookList Benutzer zu bearbeiten oder zu löschen, einfach das "
+"untenstehende Formular ausfüllen und auf den Button \"Neue Benutzer erstellen"
+"\" am Ende der Seite klicken. Die einzigen benötigten Felder sind"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:528
+msgid "Created On"
+msgstr "Erstellt am"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:529
+msgid "Save Changes To User"
+msgstr "Änderungen an den Nutzern speichern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:530
+msgid "You've just edited a WPBookList User"
+msgstr "Du hast gerade einen WPBookList User bearbeitet"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:531
+msgid "Not So Fast!"
+msgstr "Nicht so schnell!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:532
+msgid "This user is special, and cannot be deleted!"
+msgstr "Dieser User ist ein Spezialuser und kann nicht gelöscht werden!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:533
+msgid "Clear WPBookList Cache"
+msgstr "WPBookList Cache leeren"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:534
+msgid "Extensions are the easiest way to add additional functionality to your"
+msgstr ""
+"Erweiterungen sind der einfachste Weg, um zusätzliche Funktionen zu Deinem"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:535
+msgid ""
+"plugin. Simply purchase the extension of your choice and install it just "
+"like you’d install any other WordPress plugin. That’s all there is to it!"
+msgstr ""
+"Plugin. Kauf einfach die Erweiterung Deiner Wahl und installiere sie auf "
+"dieselbe Art wie jedes andere WordPress Plugin. Das ist alles!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:536
+msgid "Extensions Bundle!"
+msgstr "Erweiterungspaket!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:537
+msgid "Can’t decide which Extension to buy? Get ’em all with the"
+msgstr ""
+"Kannst Du Dich nicht entscheiden, welche Erweiterung Du kaufen sollst? Hole "
+"Dir alle mit dem"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:538
+msgid "More Details"
+msgstr "Mehr Details"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:539
+msgid "$26.00 - Purchase Now"
+msgstr "26,00 Dollar-jetzt kaufen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:540
+msgid "Affiliates Extension"
+msgstr "Affiliates Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:541
+msgid "Affiliate"
+msgstr "Affiliate"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:542
+msgid "Let WPBookList work for you with the"
+msgstr "Lass WPBookList für Dich arbeiten mit"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:543
+msgid "WPBookList Affiliates Extension!"
+msgstr "WPBookList Affiliates Erweiterung!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:544
+msgid "$5.00 - Purchase Now"
+msgstr "$5,00-Jetzt kaufen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:545
+msgid "StoreFront"
+msgstr "Schaufenster"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:546
+msgid "Got books to sell? Then you need the"
+msgstr "Hast Du Bücher zu verkaufen? Dann brauchst Du das"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:547
+msgid "WPBookList StoreFront Extension!"
+msgstr "WPBookList Schaufenster Erweiterung!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:548
+msgid "$10.00 - Purchase Now"
+msgstr "$10,00-jetzt kaufen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:549
+msgid "Comments"
+msgstr "Kommentare"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:550
+msgid ""
+"Enables Comments & Ratings for every book! Includes Like button for each "
+"comment."
+msgstr ""
+"Ermöglicht Kommentare und Bewertungen für jedes Buch! Enthält Like-Button "
+"für jeden Kommentar."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:551
+msgid "Bulk-Upload Extension"
+msgstr "Mehrfach-Upload Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:552
+msgid "Bulk-Upload"
+msgstr "Mehfach-Upload"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:553
+msgid "Tons of Books but no Time? Then get the"
+msgstr "Tonnenweise Bücher, aber keine Zeit? Dann hol Dir die"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:554
+msgid "WPBookList Bulk-Upload Extension!"
+msgstr "WPBookList Mehrfach-Upload Erweiterung!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:555
+msgid "Mobile App Extension"
+msgstr "Mobile App Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:556
+msgid "Mobile App"
+msgstr "Mobile App"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:557
+msgid "Add books quickly and easily with the"
+msgstr "Füge Bücher schnell und einfach mit"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:558
+msgid "WPBookList Mobile App Extension"
+msgstr "WPBookList Mobile App Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:559
+msgid "Goodreads Extension"
+msgstr "Goodreads Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:560
+msgid "Goodreads"
+msgstr "Goodreads"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:561
+msgid "Got a Goodreads account? Then get the "
+msgstr "Hast Du einen Goodreads-Account? Dann hol Dir die "
+
+#: includes/classes/translations/class-wpbooklist-translations.php:562
+msgid "WPBookList Goodreads Extension"
+msgstr "WPBookList Goodreads Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:563
+msgid "Kindle Preview Extension "
+msgstr "Kindle-Vorschau Erweiterung "
+
+#: includes/classes/translations/class-wpbooklist-translations.php:564
+msgid "Kindle Preview"
+msgstr "Kindle-Vorschau"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:565
+msgid "Provides Kindle Book Previews! Integrates with the"
+msgstr "Bietet Kindle-Buchvorschauen! Integriert sich in die"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:566
+msgid "$3.00 - Purchase Now"
+msgstr "$3.00-Jetzt kaufen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:567
+msgid "BookFinder Extension"
+msgstr "BuchFinder Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:568
+msgid "BookFinder"
+msgstr "BuchFinder"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:569
+msgid "Let your visitors add books with the"
+msgstr "Lass Deine Besucher Bücher mit den"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:570
+msgid "WPBookList BookFinder Extension"
+msgstr "WPBookList BuchFinder Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:571
+msgid "Try the Demo"
+msgstr "Probier das Demo"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:572
+msgid "Stylizer Extension"
+msgstr "Stil Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:573
+msgid "Stylizer"
+msgstr "Stil"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:574
+msgid "Easily customize the Look & Feel of your"
+msgstr "Passe einfach das Aussehen und das Verhalten Deiner"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:575
+msgid "Book and Library Views"
+msgstr "Buch-und Bibliotheksansichten"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:576
+msgid "Carousel"
+msgstr "Karussell"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:577
+msgid ""
+"Add some Movement! Provides another way to creatively display your books"
+msgstr ""
+"Bewegung hinzufügen! Stellte eine andere Möglichkeit dar, Deine Bücher "
+"kreativ anzuzeigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:578
+msgid "Display your Books by Category - Optimized for Mobile"
+msgstr "Zeige Deine Bücher nach Kategorien-optimiert für Mobilgeräte"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:579
+msgid "Search & Filter Completion"
+msgstr "Such & Filter Abwicklung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:580
+msgid "TimeSaver Bundle"
+msgstr "Zeitsparer Paket"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:581
+msgid "Want the best of WPBookList as fast as possible? Then get the"
+msgstr ""
+"Möchtest Du so schnell wie möglich das Beste von WPBookList? Dann nimm das"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:582
+msgid "$12.00 - Purchase Now"
+msgstr "$12.00-jetzt kaufen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:583
+msgid "Branding"
+msgstr "Marke"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:584
+msgid "Proudly display your site's logo and motto every time a book is opened!"
+msgstr ""
+"Zeige jedes Mal, wenn ein Buch geöffnet wird, das Logo und das Motto Deiner "
+"Website!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:585
+msgid ""
+"Looks like there was a problem uploading your StylePak! Try unzipping the "
+"StylePak first, and then uploading the resulting '.css' file instead (the "
+"file without the '.zip' at the end)"
+msgstr ""
+"Schaut so aus als ob es ein Problem beim Hochladen Deines Stilpakets gibt! "
+"Versuche das Stilpaket zu entpacken und lade dann die '.css' Datei hoch."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:586
+msgid "plugin"
+msgstr "Erweiterung"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:587
+msgid "Library StylePak Bundle"
+msgstr "Bibliothek Stilvorlagen Paket"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:588
+msgid "Can't decide on just one StylePak? Get 'em all with the"
+msgstr ""
+"Kannst Du Dich nicht für eine Stilvorlage entscheiden? Nimm sie alle mit dem"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:589
+msgid "View Demo"
+msgstr "Demo anzeigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:590
+msgid "$2.00 - Purchase Now!"
+msgstr "$2.00-Jetzt kaufen!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:591
+msgid "$8.00 - Purchase Now!"
+msgstr "$8.00-Jetzt kaufen!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:592
+msgid "Library StylePak 1"
+msgstr "Bibliothek Stilvorlage 1"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:593
+msgid "Library StylePak 2"
+msgstr "Bibliothek Stilvorlage 2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:594
+msgid "Library StylePak 3"
+msgstr "Bibliothek Stilvorlage 3"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:595
+msgid "Library StylePak 4"
+msgstr "Bibliothek Stilvorlage 4"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:596
+msgid "Library StylePak 5"
+msgstr "Bibliothek Stilvorlage 5"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:597
+msgid "Library StylePak 6"
+msgstr "Bibliothek Stilvorlage 6"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:598
+msgid ""
+"Provides larger images, and also removes the book title from being displayed"
+msgstr "Bietet größere Bilder und zeigt Buchtitel nicht an"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:599
+msgid ""
+"Combines the larger images of StylePak 1 while also displaying longer titles"
+msgstr ""
+"Kombiniert die größeren Bilder der Stilvorlagen 1 und zeigt auch längere "
+"Titel an"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:600
+msgid "Strives for a cleaner look. Perfect for sites with colored backgrounds"
+msgstr "Sauberes Aussehen. Perfekt für Sites mit bunten Hintergründen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:601
+msgid ""
+"Introduces portrait-type book covers, and reduces the font-size of the titles"
+msgstr ""
+"Stellt einen Portärt-Buchdeckel dar und reduziert die Schriftgröße der Titel"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:602
+msgid "Introduces a fixed wood-grain background emulating a bookshelf"
+msgstr ""
+"Stellt einen Hintergrund mit Holzmaserung dar, der ein Bücherregal imitiert"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:603
+msgid ""
+"Features smaller cover images and longer, bolder titles, allowing more books "
+"per row to be displayed."
+msgstr ""
+"Bietet kleinere Titelbilder und längere, fette gedruckte Titel, erlaubt es, "
+"mehr Bücher pro Zeile anzuzeigen."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:605
+msgid "Template Pak 1"
+msgstr "Vorlagenpaket 1"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:606
+msgid "Template Pak 2"
+msgstr "Vorlagenpaket 2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:607
+msgid "Template Pak 3"
+msgstr "Vorlagenpaket 3"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:608
+msgid "Template Pak 4"
+msgstr "Vorlagenpaket 4"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:609
+msgid "Template Pak 5"
+msgstr "Vorlagenpaket 5"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:610
+msgid ""
+"Moves Book Details and Purchase Links to the left side, placing focus on the "
+"Book Description and Amazon Reviews"
+msgstr ""
+"Platziert die Buchdetails und Kauflinks auf der linken Seite, wobei der "
+"Fokus auf der Buchbeschreibung und den Amazon Bewertungen liegt"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:611
+msgid ""
+"Features a larger cover image, a horizontal Book Details section, and a "
+"centered left column."
+msgstr ""
+"Bietet ein größeres Titelbild, eine horizontale Buchbeschreibungssektion und "
+"eine zentrierte linke Spalte."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:612
+msgid ""
+"Places the Social icons vertically, moves the purchase links to the right, "
+"and aligns the left column under the cover image"
+msgstr ""
+"Plaziert die sozialen Icons vertikal, verschiebt Kauflinks nach rechts und "
+"richtet die linke Spalte unterhalb des Titelbildes aus"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:613
+msgid ""
+"Larger images, vertical social icons, aligns the Book Details, Description, "
+"and Amazon reviews further right"
+msgstr ""
+"Größere Bilder, vertikale soziale Icons, ausrichten der Buchdetails, "
+"Beschreibung und Amazon Bewertungen weiter rechts"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:614
+msgid "Takes a cue from"
+msgstr "Ein Stichwort wählen aus aus"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:615
+msgid "sporting white text and a fixed wood-grain background"
+msgstr "Sportlicher weißer Text und fester Holzkornhintergrund"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:616
+msgid "Additional Images"
+msgstr "Zusätzliche Bilder"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:617
+msgid ""
+"Easily add some Custom Fields for each book with the Custom Fields Extension!"
+msgstr ""
+"Füge einfach ein paar benutzerdefinierte Felder für jedes Buch mit der "
+"'benutzerdefinierte Felder' Erweiterung hinzu!"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:618
+msgid "Custom Fields"
+msgstr "Benutzerdefinierte Felder"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:619
+msgid "Author 1"
+msgstr "Autor 1"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:620
+msgid "Author 2"
+msgstr "Autor 2"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:621
+msgid "Author 3"
+msgstr "Autor 3"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:622
+msgid "Search in"
+msgstr "Suchen in"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:623
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:624
+msgid "By"
+msgstr "Von"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:625
+msgid "Price"
+msgstr "Preis"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:626
+msgid "Ratings & Comments"
+msgstr "Bewertungen & Kommentare"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:627
+msgid "Book Title Unavailable"
+msgstr "Buch-Titel nicht verfügbar"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:628
+msgid "Book Author Unavailable"
+msgstr "Buchautor nicht verfügbar"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:629
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:630
+msgid "Displaying"
+msgstr "Anzeigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:631
+msgid "of"
+msgstr "von"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:632
+msgid "Page"
+msgstr "Seite"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:633
+msgid "Delete Page"
+msgstr "Seite löschen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:634
+msgid "Delete Post"
+msgstr "Beitrag löschen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:635
+msgid "Next"
+msgstr "Weiter"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:637
+msgid "Results"
+msgstr "Ergebnisse"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:638
+msgid "Refine Your Search"
+msgstr "Verfeinere Deine Suche"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:639
+msgid "Refine Search"
+msgstr "Suche verfeinern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:640
+msgid "Select"
+msgstr "Auswählen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:641
+msgid "displaying"
+msgstr "Anzeigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:642
+msgid "displaying last"
+msgstr "Letzte anzeigen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:643
+msgid "results"
+msgstr "Ergebnisse"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:644
+msgid "No Search Results Found"
+msgstr "Keine Suchergebnisse gefunden"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:645
+msgid "Enter your License Key Here"
+msgstr "Lizenzschlüssel eingeben"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:646
+msgid "Save"
+msgstr "Speichern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:647
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Search Extension yet! Enter your License Key below to begin using WPBookList "
+"Search."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Suche Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Suche verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:648
+msgid "Save License Key"
+msgstr "Lizenzschlüssel speichern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:649
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Affiliates Extension yet! Enter your License Key below to begin using "
+"WPBookList Affiliates."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Affiliates Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Affiliates verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:650
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"BookFinder Extension yet! Enter your License Key below to begin using "
+"WPBookList BookFinder."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"BuchFinder Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList BuchFinder verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:651
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Bulk-Book Upload Extension yet! Enter your License Key below to begin using "
+"WPBookList Bulk-Book Upload."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Buch-Massenupload Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Buch-Massenupload verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:652
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Carousel Extension yet! Enter your License Key below to begin using "
+"WPBookList Carousel."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Karussell Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Karussell verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:653
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Categories Extension yet! Enter your License Key below to begin using "
+"WPBookList Categories."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Kategorien Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Kategorien verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:654
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Comments Extension yet! Enter your License Key below to begin using "
+"WPBookList Comments."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Kommentar Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Kommentar verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:655
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"CustomFields Extension yet! Enter your License Key below to begin using "
+"WPBookList CustomFields."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"'benutzerdefinierte Felder' Erweiterung noch nicht eingegeben hast! Gib "
+"unten Deinen Lizenzschlüssel ein, um WPBookList 'benutzerdefinierte Felder' "
+"verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:656
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Goodreads Extension yet! Enter your License Key below to begin using "
+"WPBookList Goodreads."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Goodreads Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Goodreads verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:657
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Kindle Preview Extension yet! Enter your License Key below to begin using "
+"WPBookList Kindle Preview."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Kindle-Vorschau Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Kindle-Vorschau verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:658
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Mobile Extension yet! Enter your License Key below to begin using WPBookList "
+"Mobile."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Mobil Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Mobil verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:659
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Storefront Extension yet! Enter your License Key below to begin using "
+"WPBookList Storefront."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Schaufenster Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um das WPBookList Schaufenster verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:660
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Stylizer Extension yet! Enter your License Key below to begin using "
+"WPBookList Stylizer."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Stylizer Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Stylizer verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:661
+msgid ""
+"Uh-Oh! Looks like you haven't entered your License Key for the WPBookList "
+"Branding Extension yet! Enter your License Key below to begin using "
+"WPBookList Branding."
+msgstr ""
+"Uh-Oh! Es sieht so aus, als ob Du Deinen Lizenzschlüssel für die WPBookList "
+"Branding Erweiterung noch nicht eingegeben hast! Gib unten Deinen "
+"Lizenzschlüssel ein, um WPBookList Branding verwenden zu können."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:662
+msgid "Add Your Amazon Affiliate ID Here"
+msgstr "Füge hier Deine Amazon-Affiliate-ID hinzu"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:663
+msgid "Add Your iTunes Affiliate ID Here"
+msgstr "Füge hier Deine iTunes-Affiliate-ID hinzu"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:664
+msgid "Got some Affiliate IDs"
+msgstr "Habe einige Affiliate IDs"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:665
+msgid "Then let"
+msgstr "Dann lass es"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:666
+msgid ""
+"work for you by simply placing your Affiliate IDs in the appropriate spots "
+"below and clicking 'Save Affiliate IDs'. Start making money with"
+msgstr ""
+"Lass es für dich arbeiten, indem Du einfach Deine Affiliate-IDs an den "
+"entsprechenden Stellen unten platzierst und auf \"Affiliate-IDs speichern\" "
+"klickst. Beginne Geld zu verdienen... "
+
+#: includes/classes/translations/class-wpbooklist-translations.php:667
+msgid "today"
+msgstr "heute"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:668
+msgid "Save Affiliate IDs"
+msgstr "Affiliate-IDs speichern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:669
+msgid "Search General Settings"
+msgstr "Allgemeine Einstellungen für die Suche"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:670
+msgid "Configure Search Fields"
+msgstr "Suchfelder konfigurieren"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:671
+msgid ""
+"Here you can configure individual Search Fields, to include whether the "
+"field should be checked by default, checked by default and hidden from "
+"visitors, or removed as an option altogether. You can also set the same "
+"options for which of your Libraries are searchable."
+msgstr ""
+"Hier können einzelne Suchfelder konfiguriert werden, um festzulegen, ob das "
+"Feld standardmäßig überprüft, standardmäßig geprüft und vor Besuchern "
+"versteckt werden, oder als Option ganz entfernt werden soll. Du kannst auch "
+"dieselben Optionen für Deine durchsuchbaren Bibliotheken festlegen."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:672
+msgid "Configure Libraries to Search Within"
+msgstr "Bibliotheken konfigurieren, um in ihnen zu suchen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:673
+msgid "Check by Default"
+msgstr "Standardmäßig prüfen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:674
+msgid "Check by Default and Hide"
+msgstr "Standardmäßig prüfen und verstecken"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:675
+msgid "Remove this Library"
+msgstr "Diese Bibliothek entfernen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:676
+msgid "Configure Fields to Search By"
+msgstr "Felder für die Suche konfigurieren"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:677
+msgid "Save Search Settings"
+msgstr "Sucheinstellungen speichern"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:678
+msgid "Remove This Field"
+msgstr "Dieses Feld entfernen"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:679
+msgid "Check All 'by Default'  "
+msgstr "Alle mit 'Standard' markieren "
+
+#: includes/classes/translations/class-wpbooklist-translations.php:680
+msgid "Check All 'by Default and Hide'"
+msgstr "Alle mit 'Standard und verstecken' markieren"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:681
+msgid "Check All 'Remove'"
+msgstr "Alle mit \"Entfernen\" markieren"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:682
+msgid ""
+"Here you can configure some general options, including how many Search "
+"Results you'd like displayed per page, and whether or not to perform an "
+"'Inclusive' or 'Exclusive' Search."
+msgstr ""
+"Hier kannst Du einige allgemeine Optionen konfigurieren, einschließlich der "
+"Anzahl der Suchergebnisse, die Sie pro Seite anzeigen möchten, und ob Du "
+"eine \"einfache\" oder \"erweiterte\" Suche durchführen möchtest."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:683
+msgid "Search Results Per Page"
+msgstr "Suchergebnisse pro Seite"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:684
+msgid "Perform an 'Inclusive' or 'Exclusive' Search"
+msgstr "Führe eine \"einfache\" oder \"erweiterte\" Suche duchr"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:685
+msgid ""
+"An  'Exclusive Search' requires the term being searched for to appear in "
+"every single field - so if we searched for 'History' and wanted to search by "
+"Title, Genre, and Description, the Search Term 'History' would have to "
+"appear in all three of those fields. An 'Inclusive Search' would return "
+"results for the Search Term 'History' that appears in any one of those three "
+"fields."
+msgstr ""
+"Eine ' erweiterte Suche ' erfordert, dass der Begriff der gesucht wird, in "
+"jedem einzelnen Feld vorhanden ist - wenn wir also nach 'Geschichte ' suchen "
+"und nach Titel, Genre und Beschreibung suchen wollten, müsste der "
+"Suchbegriff ' Geschichte ' in allen drei dieser Felder vorhanden sein. Eine "
+"' einfache Suche ' würde Ergebnisse für den Suchbegriff ' Geschichte ' "
+"liefern, der in einem dieser drei Felder aufscheint."
+
+#: includes/classes/translations/class-wpbooklist-translations.php:686
+msgid "Inclusive Search"
+msgstr "Einfache Suche"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:687
+msgid "Exclusive Search"
+msgstr "Erweiterte Suche"
+
+#: includes/classes/translations/class-wpbooklist-translations.php:688
+msgid "Select a Search Mode"
+msgstr "Wählen Sie einen Suchmodus"
+
+#: includes/templates/page-template-default.php:257
+#: includes/templates/post-template-default.php:257
+msgid "on"
+msgstr "an"
+
+#: includes/ui/admin/class-admin-books-edit-books-tab-ui.php:41
+#: includes/ui/admin/class-admin-master-ui.php:90
+msgid "Edit & Delete Books"
+msgstr "Bücher bearbeiten und löschen"
+
+#: includes/ui/admin/class-admin-display-pages-tab-ui.php:34
+msgid "Page Display Options"
+msgstr "Seiten-Anzeige-Optionen"
+
+#: includes/ui/admin/class-admin-display-posts-tab-ui.php:34
+msgid "Post Display Options"
+msgstr "Beitrags-Anzeige-Optionen"
+
+#: includes/ui/admin/class-admin-master-ui.php:89
+msgid "Add A Book"
+msgstr "Ein Buch hinzufügen"
+
+#: includes/ui/admin/class-admin-master-ui.php:108
+msgid "Create a User"
+msgstr "Einen Benutzer erstellen"
+
+#: includes/ui/admin/class-admin-master-ui.php:200
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/ui/admin/class-admin-master-ui.php:218
+msgid "Library View"
+msgstr "Bibliotheksansicht"
+
+#: includes/ui/admin/class-admin-master-ui.php:219
+msgid "Book View"
+msgstr "Buchansicht"
+
+#: includes/ui/admin/class-admin-master-ui.php:220
+msgid "Posts"
+msgstr "Beiträge"
+
+#: includes/ui/admin/class-admin-master-ui.php:245
+#: includes/ui/admin/class-admin-settings-amazonlocalization-tab-ui.php:40
+msgid "Amazon Localization"
+msgstr "Amazon-Lokalisierung"
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Book List"
+msgstr "WordPress Book List"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.jakerevans.com"
+msgstr "https://www.jakerevans.com"
+
+#. Description of the plugin/theme
+msgid ""
+"For authors, publishers, librarians, and book-lovers alike - use it to sell "
+"your books, record and catalog your library, and more!"
+msgstr ""
+"Für Autoren, Verleger, Bibliothekare und Buchliebhaber-nutzen Sie es, um "
+"Ihre Bücher zu verkaufen, Ihre Bibliothek zu vertreiben und zu "
+"katalogisieren, und mehr!"
+
+#. Author of the plugin/theme
+msgid "Jake Evans"
+msgstr "Jake Evans"
